@@ -1,0 +1,16 @@
+# Nmap 6.49BETA4 scan initiated Tue Dec 22 13:44:37 2015 as: nmap -sSCV -O -oG nMAP.gnmap 10.11.12.0/24
+Host: 10.11.12.1 ()	Status: Up
+Host: 10.11.12.1 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.5p1 Debian 6+squeeze5 (protocol 2.0)/	Ignored State: closed (999)	OS: Linux 3.2 - 3.19	Seq Index: 263	IP ID Seq: All zeros
+Host: 10.11.12.21 ()	Status: Up
+Host: 10.11.12.21 ()	Ports: 53/open/tcp//domain//Microsoft DNS/, 88/open/tcp//kerberos-sec//Windows 2003 Kerberos (server time: 2015-12-22 18:49:22Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows 98 netbios-ssn/, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds//(primary domain: STAR-WARS)/, 464/open/tcp//kpasswd5?///, 593/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/, 636/open/tcp//tcpwrapped///, 3268/open/tcp//ldap///, 3269/open/tcp//tcpwrapped///, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49157/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/, 49158/open/tcp//msrpc//Microsoft Windows RPC/, 49175/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (984)	Seq Index: 254	IP ID Seq: Incremental
+Host: 10.11.12.22 ()	Status: Up
+Host: 10.11.12.22 ()	Ports: 53/open/tcp//domain//Microsoft DNS 6.0.6002/, 88/open/tcp//kerberos-sec//Windows 2003 Kerberos (server time: 2015-12-22 18:49:19Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows 98 netbios-ssn/, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds//Microsoft Windows 2003 or 2008 microsoft-ds/, 464/open/tcp//kpasswd5?///, 593/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/, 636/open/tcp//tcpwrapped///, 3268/open/tcp//ldap///, 3269/open/tcp//tcpwrapped///, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49157/open/tcp//msrpc//Microsoft Windows RPC/, 49158/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/	Ignored State: filtered (985)	OS: Windows Server 2008 R2|Microsoft Windows 7 Professional or Windows 8|Microsoft Windows Phone 7.5 or 8.0|Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7|Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.12.35 ()	Status: Up
+Host: 10.11.12.35 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 7.0/	Ignored State: filtered (999)	OS: Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7	Seq Index: 259	IP ID Seq: Incremental
+Host: 10.11.12.37 ()	Status: Up
+Host: 10.11.12.37 ()	Status: Up
+Host: 10.11.12.151 ()	Status: Up
+Host: 10.11.12.151 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (999)	OS: Microsoft Windows Server 2008 or 2008 Beta 3|Windows Server 2008 R2|Microsoft Windows 7 Professional or Windows 8|Microsoft Windows Phone 7.5 or 8.0|Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7|Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.11.12.150 ()	Status: Up
+Host: 10.11.12.150 ()	Status: Up	OS: Buffalo Cloudstor NAS device|Linux 2.6.14 - 2.6.34|Linux 2.6.17 (Mandriva)|Linux 2.6.23|Linux 2.6.24|Linux 2.6.32
+# Nmap done at Tue Dec 22 13:50:31 2015 -- 256 IP addresses (7 hosts up) scanned in 354.45 seconds
