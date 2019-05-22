@@ -1,0 +1,51 @@
+Hi there! This course will give you the basics on how to use Linux command line.
+
+What's that? You know Linux command line? Well in the words of Morpheus, "Show me." (You can skip ahead to the challenges)
+
+You don't know much or anything about Linux? That is OK too. We will be walking you through step-by-step. Soon you will know Command Line Kung Fu.
+
+Setup:
+
+First, make sure you have a Linux environment setup. (This can be a VM or physical hardware.) Any distribution will do, but some common ones are:
+
+Ubunutu
+Debian
+CentOS
+RedHat
+Kali Linux (If you are looking to dive into Security and want a machine that will have most of the tools pre-installed, choose this one)
+
+If you would rather use a Windows computer, that is cool too. Just install Cygwin!
+
+Make sure you have the commands (These are all standard commands and should be in any distribution you choose):
+
+cut
+awk
+grep
+sed
+cat
+
+Now that we have everything setup, let's look at the Challenge.
+
+Challenge: (All challenges can and should be performed using a single command line)
+1. You have just completed a nmap scan of your network. You output the results in greppable format and want to look at the file for specific information. (All challenges can be done in one command line)
+     - What are the IP addresses of the two Domain Controllers?
+     - Which host is running a website?
+
+2. You found a file (CCData.txt) which appears to have a bunch of random data. With a name like CCData, you believe there is credit card numbers located in the document.
+     - What is the command line to pull out all credit card numbers and put in a file called CCNumbers.txt?
+
+3. You found a file called SSNData.csv. You spoke to your manager and they said all the Social Security Numbers in the file should be replaced with x's (xxxxxxxxx). You looked at the file and the SSN's are in the file.
+     - What is the command line to replace the SSNs in the file with 9 x's? (make a copy prior to starting so it is easy to revert back if you make a mistake. Or, start by outputting to a new file until you have the syntax correct.)
+     - Print out a list of the user's first names.
+
+Help:
+Use the man pages to find out how to use the different commands.
+(i.e., man cat)
+The cat command will display a file's contents on the terminal.
+Google is your friend. The regular expressions you will need for Challenges 2 & 3 can be found with a simple Google search.
+Challenge 1: Use the commands grep & awk
+Challenge 2: Use the command grep
+Challenge 3: Use the commands sed, cat, & cut
+
+Answers:
+Hah! You think we will give you the answers? Not unless you say please.  
